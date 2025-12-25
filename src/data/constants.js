@@ -1,13 +1,12 @@
 export const Bio = {
-  name: "Rishank Gattani",
-  roles: ["Full Stack Developer", "AI/ML Enthusiast", "Programmer"],
+  name: "Tulsi Kesharwani",
+  roles: ["Frontend Developer", "AI/ML Enthusiast", "Programmer", "Software Engineer"],
   description:
-    "I am a passionate and dedicated individual with expertise in Full Stack Development and Generative AI. Currently working with LLMs and RAG models for software documentation optimization. I actively contribute to projects and seek innovative solutions through creativity and problem-solving skills.",
-  github: "https://github.com/Rishank3003",
-  linkedin: "https://www.linkedin.com/in/rishank-gattani-5b16a3235",
-  twitter: "https://x.com/gattani_rishank",
-  email: "rishankgattani32128@gmail.com",
-  phone: "9116122503",
+    "Frontend Developer skilled in building responsive UI and modern web applications using React, JavaScript, and Tailwind CSS. Focused on creating intuitive user interfaces, optimizing performance, and delivering seamless user experiences. Passionate about continuous learning and transforming ideas into real-world applications.",
+  github: "https://github.com/TulsiKesharwani",
+  linkedin: "https://www.linkedin.com/in/tulsi05/",
+  email: "tulsikesharwani05@gmail.com",
+  phone: "9589555586",
 };
 
 export const skills = [
@@ -93,39 +92,9 @@ export const skills = [
           "https://repository-images.githubusercontent.com/311381168/137fd380-27aa-11eb-90ec-77ac9d5c3e96",
       },
       {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-    ],
-  },
-  {
-    title: "Tools & Cloud",
-    skills: [
-      {
-        name: "AWS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-      },
-      {
-        name: "Power BI",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
-      },
-      {
-        name: "Tableau",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
-      },
-      {
-        name: "RESTful API",
-        image:
-          "https://www.svgrepo.com/show/120283/api.svg",
       },
     ],
   },
@@ -143,12 +112,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-
-      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -165,40 +128,40 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "/logo.png",
-    role: "Semester Intern",
-    company: "Mentem Technologies Pvt. Ltd.",
-    date: "Jan 2025 - June 2025",
-    desc: "Working with Generative AI models and transformers for Software Documentation Optimization. SOP document training for In House Large Language Models, Python Scripting, RAG Models.",
-    skills: ["Generative AI", "Python", "LLMs", "RAG Models", "Transformers"],
+    img: "shaaadi.png",
+    role: "SDE Intern",
+    company: "Shaadi.com | People Interactive Pvt. Ltd.",
+    date: "July 2025 - Oct 2025",
+    desc: "Developed and maintained responsive web applications using React, JavaScript, and Material UI. Collaborated with cross-functional teams to implement new features and improve user experience.",
+    skills: ["JavaScript", "CSS", "React.Js", "Material UI", "Redux"],
   },
   {
     id: 1,
-    img: "/logo.png",
-    role: "Summer Intern",
-    company: "Mentem Technologies Pvt. Ltd.",
-    date: "Sept 2023 - Nov 2023",
-    desc: "Reduced time to render user buddy lists by 75% by implementing a prediction algorithm.",
-    skills: ["Algorithm Design", "Performance Optimization"],
+    img: "solarsec.jpg",
+    role: "FullStack Web Development Intern",
+    company: "Solar Secure IT Solutions",
+    date: "Oct 2023 - Dec 2023",
+    desc: "Worked as a Full Stack Developer Intern, contributing to the development and enhancement of web applications using modern frontend and backend technologies. Assisted in building responsive user interfaces, integrating APIs, and implementing core application features.",
+    skills: ["JavaScript", "React.Js", "Node.Js", "Express.Js", "MongoDB"],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "/vit_logo.png",
-    school: "Vellore Institute of Technology, Vellore",
-    date: "Sept 2021 - Aug 2025",
-    grade: "7.72 GPA",
-    desc: "Completed Bachelor's degree in Computer Science and Engineering. Coursework includes Object-Oriented Programming, Data Structures and Algorithms, Operating Systems, Database Systems, and Computer Networks. Active member of FEPSI Club (Vice Chairperson), Mozilla Firefox Club (Web Developer), and Bulls and Bears Club (Finance Core Committee).",
+    img: "cuf.jpg",
+    school: "Chandigarh University, Punjab",
+    date: "Aug 2021 - June 2025",
+    grade: "7.83 GPA",
+    desc: "Completed Bachelor's degree in Computer Science and Engineering. Coursework includes Object-Oriented Programming, Data Structures and Algorithms, Operating Systems, Database Systems, and Computer Networks.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "/st_pauls.png",
-    school: "St. Paul's Sr. Sec. School",
-    date: "June 2021",
-    grade: "88.8%",
+    img: "kps.png",
+    school: "Krishna Public School, Raipur",
+    date: "March 2019 - June 2021",
+    grade: "83%",
     desc: "Completed Higher Senior Secondary Education with focus on Science stream.",
     degree: "Higher Senior Secondary Education",
   },
@@ -212,32 +175,32 @@ export const projects = [
       "NEWS Website using the MERN stack, empowering users with CRUD operations. Users can comment on each other's posts, fostering interactive content.",
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800",
     tags: ["ReactJS", "TailwindCSS", "NodeJS", "ExpressJS", "MongoDB"],
-    github: "https://github.com/Rishank3003",
+    github: "https://github.com/TulsiKesharwani",
   },
   {
     id: 1,
-    title: "Serenity-AI",
+    title: "Resumind",
     description:
-      "A comprehensive mental health application designed to support users' emotional well-being through journaling, mood tracking, personalized activities, and AI-powered insights.",
-    image: "https://images.unsplash.com/photo-1559526324-593bc073d938?w=800",
-    tags: ["Python", "NodeJS", "Supabase", "Google AI Studio", "AWS EC2", "Vercel"],
-    github: "https://github.com/Rishank3003",
+      "AI Resume Analyzer allows users to upload or create resumes and receive instant, AI-driven insights directly in the browser. By combining a modern React-based UI with serverless services, the application focuses on performance, privacy, and ease of use. The system is designed to help job seekers better understand their resume quality and make informed improvements.",
+    image: "",
+    tags: ["React", "NodeJS", "React router v7", "TypeScript", "TailwindCSS", "Vite", "Zustand", "puter.js"],
+    github: "https://github.com/TulsiKesharwani",
   },
 ];
 
 export const certifications = [
   {
     id: 0,
-    title: "Full Stack Web Development",
-    issuer: "Ethnus Codemithra Internship",
-    date: "Aug 2023 - Nov 2023",
+    title: "NPTEL Certification in Introduction to Internet of Things – Scored 88Percent",
+    issuer: "NPTEL Swayam (Indian Institute of Technology, Kharagpur)",
+    date: "Jul 2023 - Oct 2023",
   },
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: "Started B.Tech at VIT Vellore" },
-  { year: 2022, text: "Joined Mozilla Firefox Club as Web Developer" },
-  { year: 2023, text: "Summer Internship at Mentem Technologies" },
-  { year: 2024, text: "Vice Chairperson of FEPSI Club" },
-  { year: 2025, text: "Semester Internship - Working with Generative AI" },
+  { year: 2021, text: "Started B.Tech at Chandigarh University, Punjab" },
+  { year: 2022, text: "Joined Computer Society Of India CUSB as Web Developer" },
+  { year: 2023, text: "Internship at Solar Secure IT Solutions" },
+  { year: 2024, text: "" },
+  { year: 2025, text: "Internship at Shaadi.com | People Interactive Pvt. Ltd." },
 ];

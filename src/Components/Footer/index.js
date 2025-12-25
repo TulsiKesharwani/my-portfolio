@@ -95,7 +95,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishank Gattani</Logo>
+        <Logo>Tulsi Kesharwani</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -114,7 +114,7 @@ function Footer() {
             <XIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Rishank Gattani. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Tulsi Kesharwani. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

@@ -35,7 +35,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <CgMonday size="20px" /> <Span>Rishank</Span>
+            <CgMonday size="20px" /> <Span>Tulsi</Span>
           </a>
         </NavLogo>
         <MobileIcon>

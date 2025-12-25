@@ -140,10 +140,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",      // Replace with your EmailJS Service ID
-        "YOUR_TEMPLATE_ID",     // Replace with your EmailJS Template ID
+        "service_89yv5wm",      // Replace with your EmailJS Service ID
+        "template_t3ugg6c",     // Replace with your EmailJS Template ID
         form.current,
-        "YOUR_PUBLIC_KEY"       // Replace with your EmailJS Public Key
+        "public_3I76T6l-UJFoI97g4"       // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {
@@ -164,6 +164,20 @@ const Contact = () => {
         <Desc>
           Got a question or proposal, or just want to say hello? Go ahead.
         </Desc>
+        {/* Visible email address for users to reach out directly */}
+        <div style={{
+          background: '#181824',
+          color: '#fff',
+          padding: '12px 20px',
+          borderRadius: '8px',
+          margin: '10px 0',
+          fontWeight: 600,
+          fontSize: '18px',
+          textAlign: 'center',
+          letterSpacing: '1px'
+        }}>
+          tulsikesharwani05@gmail.com
+        </div>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
